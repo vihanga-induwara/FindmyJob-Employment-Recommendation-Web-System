@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Reviews</title>
+    <script src="https://kit.fontawesome.com/d345e7c29c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+   <section>
+    <h1>We Guide Your Career Path with Purpose and Precision</h1>
+    <p>Unlock your True Potential with Our Commitment to Connecting Top Talent with Fulfilling Opportunities.</p>
+   </section>
+
+   <div>
+    <label for="backgroundColor">Background Color:</label>
+    <select id="backgroundColor">
+        <option value="black">Black</option>
+        <option value="white">White</option>
+        <option value="gray">Gray</option>
+        <option value="lightblue">Light Blue</option>
+    </select>
+
+    <label for="textColor">Text Color:</label>
+    <select id="textColor">
+        <option value="white">White</option>
+        <option value="black">Black</option>
+        <option value="blue">Blue</option>
+        <option value="red">Red</option>
+    </select>
+    </div>
+
+    <div class="reviewsList">
+    </div>
+	
+    <div class="FormContainer">
+        <h2>Submit Your Review</h2>
+
+        <form id="reviewForm">
+            
+            <div class="FormInput">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" >
+            </div>
+
+            <div class="FormInput">
+                <label for="ratings">Your Rating:</label>
+                <div class="StarRating">
+                    <input type="radio" id="5star" name="ratings" value="5" >
+                    <label for="5star" title="5 Stars">
+                        <i class="fa-solid fa-star"></i>
+                    </label>
+
+                    <input type="radio" id="4star" name="ratings" value="4" >
+                    <label for="4star" title="4 Stars">
+                        <i class="fa-solid fa-star"></i>
+                    </label>
+
+                    <input type="radio" id="3star" name="ratings" value="3" >
+                    <label for="3star" title="3 Stars">
+                        <i class="fa-solid fa-star"></i>
+                    </label>
+
+                    <input type="radio" id="2star" name="ratings" value="2" >
+                    <label for="2star" title="2 Stars">
+                        <i class="fa-solid fa-star"></i>
+                    </label> 
+
+                    <input type="radio" id="1star" name="ratings" value="1" >
+                    <label for="1star" title="1 Star">
+                        <i class="fa-solid fa-star"></i>
+                    </label>
+                </div>
+            </div>
+
+            <div class="FormInput">
+                <label for="description">Your Thoughts:</label>
+                <textarea id="description" name="description" rows="5" ></textarea>
+            </div>
+
+            <div class="FormInput">
+                <label for="image">Upload Your Picture:</label>
+                <input type="file" id="image" name="image" accept="image/*" >
+            </div>
+
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>
+
+    <div class="newUserReviews" id="newUserReviews">
+        <h2>Our Glowing Testimonials</h2>
+
+    </div>
+
+      <footer>
+    <div class="row">
+      <div class="col">
+        <img src="findmyJob.jpg" alt="findMyJob"  class="logo">
+        <p>FindMyJob.com is one of the leading and most trusted job finding platforms globally,
+          dedicated to bridging the gap between top talent and exceptional career opportunities.
+          Our commitment to personalized job matching, comprehensive career resources, and industry-leading
+          networking features ensures that every user can unlock their full potential and achieve their professional goals.
+        </p>
+      </div>
+
+      <div class="col">
+        <h3>Office
+          <div class="underline"><span></span></div>
+        </h3>
+        <p>Dreamland Castle,</p>
+        <p>No.17, Flying Carpet Street,</p>
+        <p>Wonderland City, Fantasy Island,</p>
+        <p>Sri Lanka.</p>
+        <p class="CompanyEmail">findmyjob@outlook.com</p>
+        <h4>+94 71 234 5678</h4>
+      </div>
+
+      <div class="col">
+        <h3>Quick Links
+          <div class="underline"><span></span></div>
+        </h3>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h3>Newsletter
+          <div class="underline"><span></span></div>
+        </h3>
+        <p>
+          <b>Join the Community!</b>
+          Hey! No need to constantly check our website.<br>
+          Get all the latest updates delivered straight to your inbox.
+          Engage with our newsletter for the latest updates and news.
+        </p>
+
+        <form id="subscribeForm">
+          <label for="subscriberName"></label>
+          <i class="fa-solid fa-user"></i>
+          <input type="text" id="subscriberName" name="name" placeholder="Your Name"><br>
+          <br>
+          <label for="subscriberEmail"></label>
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email" id="subscriberEmail" name="email" placeholder="Email Address"><br>
+          <br>
+          <button type="submit">Subscribe</button>
+        </form>
+        <div class="SocialMediaIcons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-square-x-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div id="subscribersList"></div>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">FindMyJob © 2024 - All Rights Reserved<--><a href="editor.html" target="_blank">CREATED BY STUDENT 04</a></p>
+
+  </footer>
+      
+  <script src="listing.js" defer></script>
+       
+</body>
+</head>
+</html>

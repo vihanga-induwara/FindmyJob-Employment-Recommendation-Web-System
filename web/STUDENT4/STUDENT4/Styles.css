@@ -1,0 +1,376 @@
+/* General Styles */
+    body {
+        background-image: url("Ratings.jpg"), url("pexels.jpg");
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: scroll, fixed;
+        background-position: center top, bottom;
+        background-size: contain, cover;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* Ensures the footer stays at the bottom */
+        position: relative;
+        padding-bottom: 200px;
+    }
+    
+    /* Section with h1 and p */
+    section {
+        background-color: black;
+        color: white;
+        padding: 40px 20px;
+        text-align: center;
+    }
+    
+    section h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+    
+    section p {
+        color: lightskyblue;
+        margin: 10px 0 0;
+        font-size: 1.2em;
+    }
+    
+    /* Reviews List */
+    .reviewsList, .newUserReviews {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    
+    .reviewCard {
+        background-color:lightseagreen;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin: 10px;
+        padding: 20px;
+        width: 300px;
+        box-sizing: border-box;
+        flex:0 1 45%;
+    }
+    
+    .reviewCard .stars {
+        color: #FFD700;
+        font-size: 1.5em;
+    }
+    
+    .reviewCard p {
+        font-size: 1em;
+        margin: 10px 0;
+    }
+    
+    .user-info {
+        display: flex;
+        align-items: center;
+    }
+    
+    .user-info img {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+    
+    .user-info .name {
+        font-weight: bold;
+    }
+    
+    .user-info .time {
+        color: #21282e;
+        font-size: 0.9em;
+    }
+    
+    .fa-brands {
+    margin-top: 10px;
+}
+
+    .fa-facebook {
+        color: #3b5998;
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+    
+    /* Form Container */
+    .FormContainer {
+        background-color: black;
+        color: lightskyblue;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin: 20px auto;
+        max-width: 90%;
+        padding: 20px;
+        width:calc(100%-40px);
+        box-sizing: border-box;
+    }
+    
+    .FormContainer h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .FormInput {
+        margin-bottom: 15px;
+    }
+    
+    .FormInput label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    .FormInput input[type="text"],
+    .FormInput textarea,
+    .FormInput input[type="file"] {
+        width: calc(100% - 20px);
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    .StarRating {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    
+    .StarRating input {
+        display: none;
+    }
+    
+    .StarRating label {
+        cursor: pointer;
+        font-size: 1.5em;
+        color: #ddd;
+        margin: 0 5px;
+    }
+    
+    .StarRating input:checked ~ label,
+    .StarRating label:hover,
+    .StarRating label:hover ~ label {
+        color: #FFD700;
+    }
+    
+    button[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: block;
+        margin: 20px auto;
+        font-size: 1em;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    
+    /* New User Reviews Section */
+    .newUserReviews {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin: 20px auto;
+        max-width: 800px;
+        padding: 20px;
+    }
+    
+    .newUserReviews h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    /* Footer Styles */
+    footer {
+        width: 100%;
+        background: linear-gradient(to right, #00093c, #2d0b00);
+        color: #fff;
+        padding: 100px 0 30px;
+        border-top-left-radius: 125px;
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: auto; /* Ensures the footer stays at the bottom */
+        position: relative;
+        z-index: 1;
+
+    }
+    
+    .row {
+        width: 85%;
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    .col {
+        flex-basis: 25%;
+        padding: 10px;
+    }
+    
+    .col:nth-child(2),
+    .col:nth-child(3) {
+        flex-basis: 15%;
+    }
+    
+    .logo {
+        width: 150px;
+        margin-bottom: 30px;
+    }
+    
+    .col h3 {
+        width: fit-content;
+        margin-bottom: 40px;
+        position: relative;
+    }
+    
+    .CompanyEmail {
+        width: fit-content;
+        border-bottom: 1px solid #ccc;
+        margin: 20px 0;
+    }
+    
+    ul li {
+        list-style: none;
+        margin-bottom: 12px;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    form {
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 50px;
+    }
+    
+    form .fa-envelope {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    
+    form input {
+        width: 100%;
+        background: transparent;
+        color: #ccc;
+        border: 0;
+        outline: none;
+    }
+    
+    form button {
+        background: transparent;
+        color: whitesmoke;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    form button:hover {
+        background-color: greenyellow;
+        color: #000;
+        box-sizing: border-box;
+    }
+    
+    .SocialMediaIcons .fa-brands {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        color: #000;
+        background: #fff;
+        margin-right: 15px;
+    }
+    
+    hr {
+        width: 90%;
+        border: 0;
+        border-bottom: 1px solid #ccc;
+        margin: 20px auto;
+    }
+    
+    .copyright {
+        text-align: center;
+    }
+    
+    .underline {
+        width: 100%;
+        height: 5px;
+        background: #767676;
+        border-radius: 3px;
+        position: absolute;
+        top: 25px;
+        left: 0;
+        overflow: hidden;
+    }
+    
+    .underline span {
+        width: 15px;
+        height: 100%;
+        background: white;
+        border-radius: 3px;
+        position: absolute;
+        top: 0;
+        left: 10px;
+        animation: moving 2s linear infinite;
+    }
+    
+    @keyframes moving {
+        0% {
+            left: -20px;
+        }
+    
+        100% {
+            left: 100%;
+        }
+    }
+    
+    @media (max-width: 700px) {
+        footer {
+          bottom: unset;
+        }
+    
+        .col {
+          flex-basis: 100%;
+        }
+    
+        .col:nth-child(2),
+        .col:nth-child(3) {
+          flex-basis: 100%;
+        }
+      }
+
+      /* Additional styling for color selection menus */
+label, select {
+    display: block;
+    margin: 10px 0;
+    font-size: 1em;
+    color: white;
+}
+
+select {
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+    

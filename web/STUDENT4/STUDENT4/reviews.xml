@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reviews>
+    <review>
+        <stars>★★★★★</stars>
+        <text>"I found my dream job within a week of signing up! The interface is user-friendly, and the job recommendations were spot on. The customer support team was also very helpful when I had questions. Highly recommend!"</text>
+        <user>
+            <name>Venuka Kalhan</name>
+            <time>10 minutes ago</time>
+            <image>userprofiles/1.jpg</image>
+        </user>
+        <social>fa-facebook</social>
+    </review>
+
+    <review>
+        <stars>★★★★★</stars>
+        <text>"A great resource for job seekers. I appreciated the detailed job descriptions and the ability to filter searches by location, salary, and industry. I received a few interview calls within a month. The only downside is that the premium features are a bit pricey."</text>
+        <user>
+            <name>Kavindu Madushanka</name>
+            <time>20 minutes ago</time>
+            <image>userprofiles/2.jpg</image>
+        </user>
+        <social>fa-facebook</social>
+    </review>
+
+    <review>
+        <stars>★★★★★</stars>
+        <text>"Very helpful for recent graduates. The entry-level job listings were abundant, and the site provided useful tips for interviews and resume writing. I found a job in my field within a month. Recommended for newbies."</text>
+        <user>
+            <name>Surakkitha Galappaththi</name>
+            <time>2 days ago</time>
+            <image>userprofiles/3.jpg</image>
+        </user>
+        <social>fa-facebook</social>
+    </review>
+
+    <review>
+        <stars>★★★★★</stars>
+        <text>"Good platform with a wide range of job listings. I liked the option to upload multiple resumes and cover letters. I found a great job, but it took about two months of searching. Patience is key."</text>
+        <user>
+            <name>Dulaksha Chamath</name>
+            <time>3 days ago</time>
+            <image>userprofiles/4.jpg</image>
+        </user>
+        <social>fa-facebook</social>
+    </review>
+
+    <review>
+        <stars>★★★★★</stars>
+        <text>"Outstanding platform! The networking features allowed me to connect with industry professionals and attend virtual job fairs. I found a fantastic job through these connections. The site exceeded my expectations."</text>
+        <user>
+            <name>Likitha Eshan</name>
+            <time>3 days ago</time>
+            <image>userprofiles/5.jpg</image>
+        </user>
+        <social>fa-facebook</social>
+    </review>
+
+    <review>
+        <stars>★★★★★</stars>
+        <text>"Excellent job finding website! I appreciated the personalized job recommendations and the ability to see company reviews and ratings. The application process was straightforward, and I secured a position quickly."</text>
+        <user>
+            <name>Avanka Weligama</name>
+            <time>5 days ago</time>
+            <image>userprofiles/6.jpg</image>
+        </user>
+        <social>fa-facebook</social>
+    </review>
+
+    <review>
+        <stars>★★★★★</stars>
+        <text>"Amazing experience! The website offers a vast range of job listings, and I appreciated the personalized job recommendations. The application process was seamless, and I landed a great job in my field within two weeks. Definitely worth it!"</text>
+        <user>
+            <name>Chanith Randiv</name>
+            <time>5 days ago</time>
+            <image>userprofiles/7.jpg</image>
+        </user>
+        <social>fa-facebook</social>
+    </review>
+
+    <review>
+        <stars>★★★★★</stars>
+        <text>"I was impressed with the variety of job opportunities available. The networking features allowed me to connect with professionals in my industry, which led to an amazing job offer. The career advice articles were also very helpful. Outstanding platform!"</text>
+        <user>
+            <name>Ranod Amarasinghe</name>
+            <time>5 days ago</time>
+            <image>userprofiles/8.jpg</image>
+        </user>
+        <social>fa-facebook</social>
+    </review>
+
+    <review>
+        <stars>★★★★★</stars>
+        <text>"Fantastic job finding website! The search functionality is top-notch, and the ability to upload and manage multiple resumes was very convenient. I found a job at a top company much faster than I expected. Highly satisfied with the experience!"</text>
+        <user>
+            <name>Sakith Nadhawa</name>
+            <time>5 days ago</time>
+            <image>userprofiles/9.jpg</image>
+        </user>
+        <social>fa-facebook</social>
+    </review>
+
+    <review>
+        <stars>★★★★★</stars>
+        <text>"This website exceeded my expectations. The job alerts were timely and relevant, and the application tracking feature kept me organized. I also appreciated the career resources and interview tips. Found a great job quickly and easily!"</text>
+        <user>
+            <name>Vishmi Nathasha</name>
+            <time>5 days ago</time>
+            <image>userprofiles/10.jpg</image>
+        </user>
+        <social>fa-facebook</social>
+    </review>
+
+    <review>
+        <stars>★★★★★</stars>
+        <text>"Highly effective job search tool! The site offers a wealth of resources for job seekers, from resume tips to interview preparation. The user interface is clean and user-friendly. I found a job that perfectly matches my career goals. Fantastic experience!"</text>
+        <user>
+            <name>Himashi Ovitigala</name>
+            <time>5 days ago</time>
+            <image>userprofiles/11.jpg</image>
+        </user>
+        <social>fa-facebook</social>
+    </review>
+
+    <review>
+        <stars>★★★★★</stars>
+        <text>"Incredible platform! I loved the detailed job descriptions and the ability to see salary ranges and company ratings. The job matching feature was spot on, and I secured a fantastic role within a month. Highly recommended to all job seekers!"</text>
+        <user>
+            <name>Khabib Nurmagomedov</name>
+            <time>5 days ago</time>
+            <image>userprofiles/12.jpg</image>
+        </user>
+        <social>fa-facebook</social>
+    </review>
+</reviews>
